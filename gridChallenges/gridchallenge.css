@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+html body{
+    
+    font-family: "Silkscreen", 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5em;
+    background-color: black;
+}
+
 .box1{
     background-color: #51e2f5;
 }
@@ -30,6 +40,12 @@
 }
 
 .back{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    text-decoration: double white;
+    background-color: white !important;
+}
+.footer-sai{
+    background-color: white;
+    color: black;
 }
