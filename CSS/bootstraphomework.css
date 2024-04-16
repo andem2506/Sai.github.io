@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+html body{
+    
+        font-family: "Silkscreen", 'Courier New', Courier, monospace;
+        color:white;
+        text-align: center;
+        padding-top: 5em;
+        background-color: black;
+    }
+.nav-link {
+    color: blue;
+}
+.nav-link:hover{
+    color: green !important;
+    font-weight: 800;
+}
+.nav-highlight{
+    color: green !important;
+
+}
+.pag:hover{
+    color: green;
+
+}
+.navbar-brand{
+    color: white;
+    background-color: black;
+    padding: 1em;
+}
+.navbar-brand:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+}
+h1{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: left !important;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: left;
+}
+p{
+    text-align: left;
+    text-align: justify;
+}
+
+.footer-sai{
+    background-color: white;
+    color: black;
+}
+
