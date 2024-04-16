@@ -2,42 +2,34 @@
 /* CSS Document */
 
 .box1{
-    background-color: red;
-    color: white;
+    background-color: #51e2f5;
 }
 .box2{
-    background-color: rgb(193, 112, 112);
-    color: white;
+    background-color: #9df9ef;
 }
 .box3{
-    background-color: rgb(103, 50, 50);
-    color: white;
+    background-color: #edf756;
 }
 .box4{
-    background-color: rgb(148, 70, 220);
-    color: white;
+    background-color: #e5eaf5;
 }
 .box5{
-    background-color: rgb(92, 40, 140);
-    color: white;
+    background-color: #d0bdf4;
 }
 .box6{
-    background-color: rgb(57, 21, 90);
-    color: white;
+    background-color: #8458B3;
 }
 .box7{
-    background-color: rgb(229, 107, 217);
-    color: white;
+    background-color: #ff1d58;
 }
 .box8{
-    background-color: rgb(209, 32, 191);
-    color: white;
+    background-color: #f75990;
 }
 .box9{
-    background-color: rgb(80, 20, 74);
-    color: white;
+    background-color: #fff685;
 }
 
-.Back{
-    background-color: black;
+.back{
+    color: black;
+    text-align: center;
 }
