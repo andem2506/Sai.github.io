@@ -3,30 +3,39 @@
 
 .box1{
     background-color: red;
+    color: white;
 }
 .box2{
     background-color: rgb(193, 112, 112);
+    color: white;
 }
 .box3{
     background-color: rgb(103, 50, 50);
+    color: white;
 }
 .box4{
     background-color: rgb(148, 70, 220);
+    color: white;
 }
 .box5{
     background-color: rgb(92, 40, 140);
+    color: white;
 }
 .box6{
     background-color: rgb(57, 21, 90);
+    color: white;
 }
 .box7{
     background-color: rgb(229, 107, 217);
+    color: white;
 }
 .box8{
     background-color: rgb(209, 32, 191);
+    color: white;
 }
 .box9{
     background-color: rgb(80, 20, 74);
+    color: white;
 }
 
 .Back{
