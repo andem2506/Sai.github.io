@@ -1,6 +1,56 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+html body{
+    
+    font-family: "Silkscreen", 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5em;
+    background-color: black;
+}
+
+.box1{
+    background-color: #51e2f5;
+}
+.box2{
+    background-color: #9df9ef;
+}
+.box3{
+    background-color: #edf756;
+}
+.box4{
+    background-color: #e5eaf5;
+}
+.box5{
+    background-color: #d0bdf4;
+}
+.box6{
+    background-color: #8458B3;
+}
+.box7{
+    background-color: #ff1d58;
+}
+.box8{
+    background-color: #f75990;
+}
+.box9{
+    background-color: #fff685;
+}
+
+.back{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: double white;
+    background-color: white;
+}
+.footer-sai{
+    background-color: white;
+    color: black;
+}@charset "UTF-8";
+/* CSS Document */
+
 .box1{
     background-color: #51e2f5;
 }
