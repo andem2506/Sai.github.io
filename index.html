@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
  
 </head>
   <body>
@@ -23,33 +26,84 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active nav-highlight" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="gridChallenges/grid-challenge.html">Grid Challenge</a>
+            <a class="nav-link" href="research/research1.html">Research</a>
             <!-- <a class="nav-link" href="#">Pricing</a> -->
           </div>
         </div>
       </div>
     </nav>
     <div class="container-lg">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 mt-5">
+      <div class="row py-5">
+        <div class="col-1"></div>
+        <div class="col-10">
           <h1>This is not a drill!</h1>
           <h2>This is the real thing</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-
         </div>
-        <div class="col-lg-6 col-md-12 mt-5">
-          <h1>Also this maybe a drill</h1>
-          <h2>We never know...</h2>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        <div class="col-2"></div>
+      </div><!--  close row -->
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-md-px-4 me-0 pb-5 mx-auto">
+          <div class="card">
+            <img src="img/BambooStore.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BUY BAMBUS</h5>
+              <p class="card-text">Conscious manufacturing at its heart, we are owning our responsibility towards the planet and the local communities.</p>
+              <a href="#" class="btn btn-primary">View more</a>
+            </div>
+          </div>
+        </div>
 
-          </p>
+
+        <div class="col-lg-4 col-md-12 col-md-px-4 pb-5">
+          <div class="card">
+            <img src="img/book.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ANTARDRISHTI</h5>
+              <p class="card-text">A study carried out by undergraduate students of architecture at Santiniketan, Birbhum, WB, India (2014-15)</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#antaedrishtiVimeo">View Video</a>
+            </div>
+          </div>
+        </div>
+<!--  open modal -->
+        <div class="modal fade" id="antaedrishtiVimeo" tabindex="-1" aria-labelledby="antaedrishtiVimeoLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title fs-5" id="antaedrishtiVimeoLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <video controls width="320" height="240" autoplay loop >
+                  <source src="img/fireplacesample.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-md-px-4 ms-0 pb-5 mx-auto">
+          <div class="card">
+            <img src="img/green.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANGE MAKERS</h5>
+              <p class="card-text">Changemaker is a platform to encourage and guide young citizens of the state to participate in community level social work.</p>
+              <a href="#" class="btn btn-primary">View more</a>
+            </div>
+          </div>
         </div>
       </div><!--  close row -->
-    </div><!--  close row -->
-
-    <Footer class="footer-sai py-1 ">
+    </div><!--  close container -->
+    <Footer class="footer-sai py-1 fixed-bottom">
       &copy;Copyright
     </Footer>
     
