@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+html body{
+    
+        font-family: "Silkscreen", 'Courier New', Courier, monospace;
+        color:white;
+        text-align: center;
+        padding-top: 3em;
+        background-color: black;
+    }
+.nav-link {
+    color: blue;
+}
+.nav-link:hover{
+    color: green !important;
+    font-weight: 800;
+}
+.nav-highlight{
+    color: green !important;
+
+}
+.pag:hover{
+    color: green;
+
+}
+.navbar-brand{
+    color: white;
+    background-color: black;
+
+}
+.navbar-brand:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+h1{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: left !important;
+    text-decoration: underline;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 1em;
+    color: red;
+}
+h5{
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.5em;
+    text-align: left;
+}
+h5:hover{
+    color: blue;
+}
+p{
+    font-family: "Source Code Pro", monospace;
+    background-color: white;
+    color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border-radius: 1em;
+    text-align: left;
+}
+.p .cartext{
+
+    font-family: "Source Code Pro", monospace;
+    color: white !important;
+    text-align: left !important;
+
+}
+.card-text{
+    padding: 0% !important;
+    text-align: left;
+}
+
+.footer-sai{
+    background-color: white;
+    color: black;
+}
+.btn-primary{
+    background-color: black;
+    border-color: black;
+}
+.btn-primary:hover{
+    background-color: blue;
+    border-color: black;
+    color: rgb(255, 255, 255);
+}
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-inner{
+    padding-bottom: 50px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 20px;
+    width: 20px;
+   color: black;
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    height: 40px;
+    width: 40px;
+   color: blue !important;
+}
+.carousel-padding{
+    padding-left: 125px;
+    padding-right: 100px; ;
+}
+.float-left-t1 {
+    float: left;
+  }
+  
+
+hr
+{
+    background-color: #eee;
+    border: 0 none;
+    color: white;
+    height: 2px;
+}
+
+.t1h1{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-decoration:none !important;
+    padding-bottom: 25px !important;
+}
+.t1h2{
+    text-align: left;
+    color: black !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-decoration:none !important;
+    padding-bottom: 25px !important;
+}
+.t1h3{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    text-decoration:none !important;
+    padding-bottom: 25px !important;
+}
+.t1h4{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    text-decoration:none !important;
+    padding-bottom: 25px !important;
+}
+.t1p{
+    font-family: 'Courier New', Courier, monospace;
+    align-content: baseline;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    border-radius: 0em;
+    
+}
+.card-titletype{
+text-align: center;
+}
+@font-face {
+    font-family: Silkscreen;
+    src: url(../type/fonts/Silkscreen/Silkscreen-Bold.ttf);
+  }
+@font-face {
+    font-family: Josefin_Slab;
+    src: url(../type/fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Quicksand;
+    src: url(../type/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Source_Code_Pro;
+    src: url(../type/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Josefin_Slab_Italic;
+    src: url(../type/fonts/Josefin_Slab/JosefinSlab-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Source_Code_Pro_Italic;
+    src: url(../type/fonts/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf);
+}
+.silk{
+   font-family: Silkscreen !important;
+}
+.s_codepro{
+font-family: Source_Code_Pro !important;
+}
+.quicksand{
+font-family: Quicksand !important;
+}
+.jslab{
+font-family: Josefin_Slab !important;
+}
