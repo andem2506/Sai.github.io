@@ -202,3 +202,32 @@ font-family: Quicksand !important;
 .jslab{
 font-family: Josefin_Slab !important;
 }
+.imgs { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    background-color: white;
+    border-radius: 20px;
+    }
+.imgs img {
+    max-width: 80%;}
+
+figcaption{
+    color: black;
+    font-family: Source_Code_Pro !important;
+}
+
+.fav{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: left;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+.logostuff{
+    align-items: center;
+}
